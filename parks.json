@@ -1,0 +1,914 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "p262-qazs",
+      "name" : "Parks",
+      "attribution" : "City of Seattle, My Neighborhood Map program",
+      "attributionLink" : "http://www.seattle.gov/mnm",
+      "averageRating" : 0,
+      "category" : "Community",
+      "createdAt" : 1260481612,
+      "description" : "All Seattle Parks and Recreation parks.",
+      "downloadCount" : 5,
+      "numberOfComments" : 0,
+      "oid" : 802779,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1340812131,
+      "publicationGroup" : 215057,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1340812103,
+      "rowsUpdatedBy" : "pfbu-yuv5",
+      "signed" : false,
+      "tableId" : 369056,
+      "totalTimesRated" : 0,
+      "viewCount" : 22,
+      "viewLastModified" : 1281650770,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 11876009,
+        "name" : "City Feature",
+        "dataTypeName" : "text",
+        "description" : "Type of City of Seattle feature, such as traffic cameras, parks, playfields, Neighborhood Service Centers, etc. ",
+        "fieldName" : "city_feature",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283205,
+        "width" : 118,
+        "cachedContents" : {
+          "non_null" : 343,
+          "smallest" : "Parks",
+          "null" : 0,
+          "largest" : "Parks",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Parks"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11876010,
+        "name" : "Common Name",
+        "dataTypeName" : "text",
+        "description" : "This is the commonly referred name of the feature. It may be a name of a building, a park, or a location",
+        "fieldName" : "common_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283206,
+        "width" : 270,
+        "cachedContents" : {
+          "non_null" : 343,
+          "smallest" : "3001 E Madison",
+          "null" : 0,
+          "largest" : "York Playground",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Kiwanis Memorial Preserve Park"
+          }, {
+            "count" : 19,
+            "item" : "Greenwood Triangle"
+          }, {
+            "count" : 18,
+            "item" : "Albert Davis Park"
+          }, {
+            "count" : 17,
+            "item" : "Golden Gardens Park"
+          }, {
+            "count" : 16,
+            "item" : "Gilman Playground"
+          }, {
+            "count" : 15,
+            "item" : "B.F. Day Playground"
+          }, {
+            "count" : 14,
+            "item" : "Carkeek Park"
+          }, {
+            "count" : 13,
+            "item" : "Blue Ridge Places"
+          }, {
+            "count" : 12,
+            "item" : "Pelly Place Natural Area"
+          }, {
+            "count" : 11,
+            "item" : "Sw Queen Anne Greenbelt"
+          }, {
+            "count" : 10,
+            "item" : "Endolyne Park"
+          }, {
+            "count" : 9,
+            "item" : "Maple School Ravine"
+          }, {
+            "count" : 8,
+            "item" : "Arapahoe Triangle"
+          }, {
+            "count" : 7,
+            "item" : "Jefferson Park"
+          }, {
+            "count" : 6,
+            "item" : "Meridian Playground"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11876011,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "description" : "Address is the most specific location information for a feature. It ranges from a building on a campus (like Cunningham Hall on the University of Washington campus, to an intersection, to a specific street address.",
+        "fieldName" : "address",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1283207,
+        "width" : 300,
+        "cachedContents" : {
+          "non_null" : 141,
+          "smallest" : "100 LAKESIDE AV S",
+          "null" : 202,
+          "largest" : "W Galer St west of the Magnolia Bridge",
+          "top" : [ {
+            "count" : 20,
+            "item" : "100 LAKESIDE AV S"
+          }, {
+            "count" : 19,
+            "item" : "39TH SW / SW ORCHARD ST"
+          }, {
+            "count" : 18,
+            "item" : "1500 N 105TH STREET"
+          }, {
+            "count" : 17,
+            "item" : "2101 NW 77th St"
+          }, {
+            "count" : 16,
+            "item" : "13035 Linden Ave N"
+          }, {
+            "count" : 15,
+            "item" : "7200 12th Ave NE"
+          }, {
+            "count" : 14,
+            "item" : "1827 11TH AVE SOUTH"
+          }, {
+            "count" : 13,
+            "item" : "12th Ave W / W Howe St"
+          }, {
+            "count" : 12,
+            "item" : "600 NW 117TH ST"
+          }, {
+            "count" : 11,
+            "item" : "3525 E TERRACE ST"
+          }, {
+            "count" : 10,
+            "item" : "1590 NW 90th St"
+          }, {
+            "count" : 9,
+            "item" : "9053 1st Ave NW"
+          }, {
+            "count" : 8,
+            "item" : "4320 4th Ave NW"
+          }, {
+            "count" : 7,
+            "item" : "24TH AVE NW/NW 90TH ST"
+          }, {
+            "count" : 6,
+            "item" : "923 NW 54th St"
+          }, {
+            "count" : 5,
+            "item" : "4020 Fremont Ave N"
+          }, {
+            "count" : 4,
+            "item" : "3431 ARAPAHOE PLACE W"
+          }, {
+            "count" : 3,
+            "item" : "4649 Sunnyside Ave N"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11876012,
+        "name" : "Website",
+        "dataTypeName" : "url",
+        "description" : "This is the most recent known correct website address for the given feature. ",
+        "fieldName" : "website",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 1283208,
+        "width" : 415,
+        "cachedContents" : {
+          "non_null" : 343,
+          "smallest" : {
+            "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=1104"
+          },
+          "null" : 0,
+          "largest" : {
+            "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=80"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=246"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=245"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=244"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=243"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=242"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=241"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=240"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=239"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=237"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=234"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=1653"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=1630"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=1556"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=114"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "url" : "http://www.seattle.gov/parks/park_detail.asp?ID=1104"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 11876013,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "This is the longitude value. Lines of longitude run perpendicular to lines of latitude, and all pass through both poles.",
+        "fieldName" : "longitude",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283209,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 343,
+          "smallest" : "-122.417387",
+          "sum" : "-41960.003670795003",
+          "null" : 0,
+          "average" : "-122.3323722180612",
+          "largest" : "-122.246841",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-122.401004"
+          }, {
+            "count" : 19,
+            "item" : "-122.361032"
+          }, {
+            "count" : 18,
+            "item" : "-122.298462"
+          }, {
+            "count" : 17,
+            "item" : "-122.403269"
+          }, {
+            "count" : 16,
+            "item" : "-122.369684036369"
+          }, {
+            "count" : 15,
+            "item" : "-122.349221502422"
+          }, {
+            "count" : 14,
+            "item" : "-122.37241"
+          }, {
+            "count" : 13,
+            "item" : "-122.381198"
+          }, {
+            "count" : 12,
+            "item" : "-122.39309"
+          }, {
+            "count" : 11,
+            "item" : "-122.373209"
+          }, {
+            "count" : 10,
+            "item" : "-122.39438"
+          }, {
+            "count" : 9,
+            "item" : "-122.308342"
+          }, {
+            "count" : 8,
+            "item" : "-122.409139"
+          }, {
+            "count" : 7,
+            "item" : "-122.311441"
+          }, {
+            "count" : 6,
+            "item" : "-122.332556754953"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 11876014,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "This is the latitude value. Lines of latitude are parallel to the equator.",
+        "fieldName" : "latitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1283210,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 343,
+          "smallest" : "47.500389",
+          "sum" : "16333.2727006832704",
+          "null" : 0,
+          "average" : "47.61887084747309",
+          "largest" : "47.733024",
+          "top" : [ {
+            "count" : 20,
+            "item" : "47.66197"
+          }, {
+            "count" : 19,
+            "item" : "47.668902"
+          }, {
+            "count" : 18,
+            "item" : "47.72021"
+          }, {
+            "count" : 17,
+            "item" : "47.692105"
+          }, {
+            "count" : 16,
+            "item" : "47.66729167168"
+          }, {
+            "count" : 15,
+            "item" : "47.6560301481679"
+          }, {
+            "count" : 14,
+            "item" : "47.710823"
+          }, {
+            "count" : 13,
+            "item" : "47.703194"
+          }, {
+            "count" : 12,
+            "item" : "47.541492"
+          }, {
+            "count" : 11,
+            "item" : "47.633353"
+          }, {
+            "count" : 10,
+            "item" : "47.514542"
+          }, {
+            "count" : 9,
+            "item" : "47.551071"
+          }, {
+            "count" : 8,
+            "item" : "47.65129"
+          }, {
+            "count" : 7,
+            "item" : "47.568067"
+          }, {
+            "count" : 6,
+            "item" : "47.6641586884286"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "owner" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "profileLastModified" : 1327602533,
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 11876009,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "Parks"
+            } ]
+          } ]
+        },
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 11876012,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 11876012
+      } ],
+      "tableAuthor" : {
+        "id" : "pfbu-yuv5",
+        "displayName" : "Department of Information Technology",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/images/profile/3184/7575/Logo_thumb_large.gif",
+        "profileImageUrlMedium" : "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+        "profileImageUrlSmall" : "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+        "profileLastModified" : 1327602533,
+        "roleName" : "administrator",
+        "screenName" : "Department of Information Technology",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages" ]
+      },
+      "tags" : [ "park", "parks", "city parks" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "EQUALS",
+          "children" : [ {
+            "columnId" : 11876009,
+            "type" : "column"
+          }, {
+            "type" : "literal",
+            "value" : "Parks"
+          } ]
+        } ]
+      }
+    }
+  },
+  "data" : [ [ 1230, "F52E93F5-F3D1-4BC9-8729-F1408E1D930C", 1230, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Charles Richey Sr Viewpoint", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=80", null ], "-122.417387", "47.573457" ]
+, [ 1007, "E22B0AD3-57F4-4E5B-8497-FC5F693173F4", 1007, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ward Springs Park", "925 4TH AVE N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=763", null ], "-122.349245", "47.627746" ]
+, [ 1225, "024AA34B-FED2-4C6F-A36D-67B22AA64CD8", 1225, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Duwamish Waterway Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=705", null ], "-122.319694", "47.531156" ]
+, [ 1006, "4A1E71A3-914C-45AD-8BD4-589AB47CBE8D", 1006, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Christie Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=595", null ], "-122.319072", "47.659309" ]
+, [ 1224, "1FCC5F9C-21EB-416A-89CB-125695377014", 1224, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sturgus Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=592", null ], "-122.314377", "47.594089" ]
+, [ 1005, "1BE86529-B321-4862-8855-FAE77E35B457", 1005, 1263313296, "386118", 1263313296, "386118", null, "Parks", "York Park", "3650 RENTON AVE SOUTH", [ "http://www.seattle.gov/parks/park_detail.asp?ID=580", null ], "-122.295537", "47.570461" ]
+, [ 1223, "F4D7C117-BDBA-4DE1-AF88-141897577305", 1223, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Dakota Place Park", "4304 SW DAKOTA ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=575", null ], "-122.387164", "47.566844" ]
+, [ 1222, "912CE11C-752C-4CF4-8F18-EDB947434896", 1222, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Dahl (Waldo J.) Playfield", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=499", null ], "-122.299308", "47.685266" ]
+, [ 1317, "B4DB0EC5-899A-4893-ACA0-F64A81209FDA", 1317, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ballard Playground", "2644 NW 60th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=497", null ], "-122.391549848962", "47.6727858650181" ]
+, [ 1316, "FA52EF46-8FD0-43E2-A3FB-33223B66DA13", 1316, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Burke-Gilman Playground", "5201 Sand Point Way NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=496", null ], "-122.282623001591", "47.6666338602899" ]
+, [ 1004, "ACCEED23-BD6D-4CDB-85C4-F804954DCAE6", 1004, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Westlake Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=494", null ], "-122.34338", "47.641586" ]
+, [ 1221, "818A4959-AABE-4D49-8AC1-46777BA39753", 1221, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cheasty Greenspace", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=489", null ], "-122.301472", "47.578767" ]
+, [ 1220, "1CE98B71-B059-49E5-BB63-1CA4D0D84882", 1220, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ravenna-Eckstein Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=488", null ], "-122.30493", "47.67688" ]
+, [ 1003, "07096062-5159-4DCC-9576-5A578E7541CB", 1003, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lake City Park", "12359 LAKE CITY WAY NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=487", null ], "-122.295875", "47.71911" ]
+, [ 1219, "097816F9-4450-40AF-8866-C95AE46C8857", 1219, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Arroyos Natural Area", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=485", null ], "-122.387822", "47.505679" ]
+, [ 1002, "B6385420-35BF-4616-A2DC-5068CFF3F53F", 1002, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cowen Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=483", null ], "-122.313074", "47.672596" ]
+, [ 1315, "EBBC7A4D-E554-4444-B6AC-0B35EFEDDB3C", 1315, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bryant Neighborhood Playground", "4102 NE 65th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=482", null ], "-122.283644144168", "47.6752992033738" ]
+, [ 1218, "A85C86A9-7C18-491C-8D4E-F3C42FCBC8B6", 1218, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Belvoir Place", "3659  42ND AV NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=475", null ], "-122.283215", "47.655124" ]
+, [ 1217, "07C2CE74-DB26-45B5-A679-6D454EE6E306", 1217, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Me-Kwa-Mooks Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=473", null ], "-122.404005", "47.563166" ]
+, [ 1314, "F864ACF3-BE9E-42D6-AD5A-F591A2304E43", 1314, 1263313296, "386118", 1263313296, "386118", null, "Parks", "West Seattle Stadium", "4432 35th Ave SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=472", null ], "-122.374348206809", "47.5628255450167" ]
+, [ 1001, "418E5632-58BB-491D-AFD3-05541590C390", 1001, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Westcrest Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=468", null ], "-122.33989", "47.524762" ]
+, [ 1313, "364F5A45-88A1-40D5-B194-103E5E319AB9", 1313, 1263313296, "386118", 1263313296, "386118", null, "Parks", "South Park Playfield", "738 S Sullivan St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=467", null ], "-122.324158773464", "47.5280159781691" ]
+, [ 1216, "E61255A4-07CF-4725-8741-59A5B97F9A5A", 1216, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Seola Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=466", null ], "-122.374332", "47.500389" ]
+, [ 1215, "64FC1A2F-4A61-4F2F-9B56-80F9D6B410A6", 1215, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Schmitz Preserve Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=465", null ], "-122.400425", "47.574375" ]
+, [ 1079, "20F793E3-1BB5-4B99-8E3B-184A511F0F79", 1079, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Roxhill Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=464", null ], "-122.368882", "47.519496" ]
+, [ 1214, "29DF1A1D-ED2F-406F-A995-95E4A26CEE4C", 1214, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Riverview Playfield", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=463", null ], "-122.348855", "47.539329" ]
+, [ 1213, "B4F626D7-98D2-46A0-8A4C-584557E442F5", 1213, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Puget Park", "4800 16TH AVE SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=462", null ], "-122.356922", "47.558473" ]
+, [ 1078, "8BA3EF4D-E035-40F0-9AFE-C68B4EE3588A", 1078, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lincoln Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=460", null ], "-122.396012", "47.531177" ]
+, [ 1212, "7FFB01FC-3732-479D-BC9A-ABF3399B6CCF", 1212, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kilbourne Park", "9131 CALIFORNIA AVE SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=459", null ], "-122.388277", "47.52133" ]
+, [ 1312, "B635258D-7115-4157-9EF8-AFAC4C96301A", 1312, 1263313296, "386118", 1263313296, "386118", null, "Parks", "E.C. Hughes Playground", "2805 SW Holden St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=458", null ], "-122.369545228851", "47.5328049082455" ]
+, [ 1311, "0AF88C80-E552-40B2-972F-7E970B6A6B52", 1311, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Highland Park Playground", "1100 SW Cloverdale St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=457", null ], "-122.349034022359", "47.527379719227" ]
+, [ 1310, "5AFD6DB1-B53F-4F8D-9688-93A61A665B50", 1310, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Hiawatha Playfield", "2700 California Ave SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=456", null ], "-122.384964699838", "47.5782724270145" ]
+, [ 1211, "0B4C44A2-91FC-46D1-849E-4879A7AB8EFE", 1211, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Seacrest Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=455", null ], "-122.378676", "47.588951" ]
+, [ 1309, "8903A43C-9808-4BE5-A502-C63A87CAE3FE", 1309, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Hamilton Viewpoint", "1531 California Wy SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=454", null ], "-122.389069703111", "47.5907475150499" ]
+, [ 1077, "D4573C41-74E7-4F0D-8E1C-A50C6712616F", 1077, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fauntleroy Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=453", null ], "-122.383222", "47.5192" ]
+, [ 1308, "5B11C1ED-CC7C-4D25-97AF-9E064A3E75AA", 1308, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fairmount Playground", "5400 Fauntleroy Way SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=452", null ], "-122.3805488504", "47.5540408122029" ]
+, [ 1210, "384D3FB2-3DBA-4AF2-A35B-7B557F84A7FA", 1210, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Duwamish Head Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=451", null ], "-122.378909", "47.584928" ]
+, [ 1307, "956A15BE-85B2-4303-A530-AF1BC67B1430", 1307, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Delridge Playfield", "4458 Delridge Way SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=450", null ], "-122.364370690361", "47.5628424487087" ]
+, [ 1306, "E47CDFDC-45FE-47C7-B0B1-37A571B2D373", 1306, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Wallingford Playfield", "4219 Wallingford Ave N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=449", null ], "-122.33744372477", "47.6585444344469" ]
+, [ 1076, "BFA78AE0-2EE5-4519-887E-F359A246F8E0", 1076, 1263313296, "386118", 1263313296, "386118", null, "Parks", "California Place", "CALIFORNIA AVE SW / SW HILL ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=448", null ], "-122.386696", "47.585641" ]
+, [ 1209, "98976703-B2D4-4FD9-9F8F-066C7265D82B", 1209, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Belvedere Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=447", null ], "-122.376895", "47.580672" ]
+, [ 1339, "EB282EE1-9527-4A11-92B1-7BE12F03BAF2", 1339, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Rotary Viewpoint", "35th Ave SW and SW Alaska St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4465", null ], "-122.375859155464", "47.5602220495052" ]
+, [ 1305, "0498C7E8-3203-4346-8F44-721F771E01A5", 1305, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Alki Playground", "5817 SW Lander St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=446", null ], "-122.40731233767", "47.5784972617799" ]
+, [ 1042, "02D53E75-AC92-4C68-B4DB-28D68836754E", 1042, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Solstice Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4453", null ], "-122.390347", "47.536413" ]
+, [ 1156, "D179D608-5CA5-4680-849C-104960A8B404", 1156, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Northlake Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4452", null ], "-122.320826", "47.654365" ]
+, [ 1338, "1715508A-5AA6-4298-8732-E859B1538659", 1338, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ursula Judkins Viewpoint", "W Galer St west of the Magnolia Bridge", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4451", null ], "-122.390232055055", "47.6320488302181" ]
+, [ 1155, "FD274DAE-7469-4306-BED2-BF10AA19B419", 1155, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bitter Lake Open Space Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4450", null ], "-122.348583", "47.731181" ]
+, [ 1208, "1C177BFF-AE4B-4E3E-A54E-7AD1E78B87BE", 1208, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Alki Beach Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=445", null ], "-122.400127", "47.58671" ]
+, [ 1080, "30C61E6E-CE76-4692-A7C3-295DEFBE9B4F", 1080, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cesar Chavez Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4448", null ], "-122.406373", "47.661011" ]
+, [ 1041, "6C359EAD-D290-411C-9E41-B6E0469904B9", 1041, 1263313296, "386118", 1263313296, "386118", null, "Parks", "I-5 Colonnade", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4446", null ], "-122.323409", "47.634898" ]
+, [ 1154, "87744A40-F84C-44F1-85ED-9470589ED580", 1154, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Northgate Park", "10548 5TH AVE NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4445", null ], "-122.322424", "47.705194" ]
+, [ 1040, "2D9645C6-AFC8-4428-BF1F-97D9DF853D68", 1040, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Pinehurst Pocket Park", "11700 19TH AVE NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4444", null ], "-122.308222", "47.714186" ]
+, [ 1000, "D71017FB-0675-4F01-B09F-C32E3992FEE4", 1000, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Victory Creek Park", "1059 NORTHGATE WAY", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4443", null ], "-122.315554", "47.709155" ]
+, [ 1039, "4DCF2E5D-9C04-48F1-A9BF-8687E049EAF1", 1039, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Madison Park North Beach", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4441", null ], "-122.276119", "47.639083" ]
+, [ 1075, "C088EFB3-1CD8-46DD-B9F7-F7C25ADA224A", 1075, 1263313296, "386118", 1263313296, "386118", null, "Parks", "View Ridge Playfield", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=444", null ], "-122.281073", "47.680361" ]
+, [ 1153, "8EB5F094-F9EB-4B97-BF08-FEBF3F10130C", 1153, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lake People Park (Xacuabs)", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4439", null ], "-122.292012", "47.569133" ]
+, [ 1152, "612D34AE-72B0-4CB0-8CA7-9EF4D576BC67", 1152, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Counterbalance Park", "700 QUEEN ANNE AVE N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4438", null ], "-122.356323", "47.625683" ]
+, [ 1038, "CF4DCDEC-ECB4-4A52-9548-3604309F560B", 1038, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Smith Cove Park", "23RD AVE W / W MARINA PL", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4433", null ], "-122.387681", "47.632602" ]
+, [ 1151, "73E72CA4-F048-4596-887A-51F7298FDC02", 1151, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Union Bay Boglands #1", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4431", null ], "-122.287122", "47.657838" ]
+, [ 1337, "DDE258CB-5F3E-4196-AED0-9263A63ACD82", 1337, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kiwanis Ravine Overlook", "34th Ave W and W McCord Pl", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4429", null ], "-122.403236804742", "47.6602505167596" ]
+, [ 1037, "D18D093D-7B65-4243-AAEA-22BD7FB251BD", 1037, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ballard Corners Park", "17th Ave NW & NW 63rd St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4428", null ], "-122.379116", "47.674186" ]
+, [ 1336, "0A5491F4-98F6-4189-9C7A-1FE56A1DB397", 1336, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mt Baker Ridge Viewpoint", "1403 31st Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4427", null ], "-122.292616071577", "47.589983069111" ]
+, [ 1150, "424CB757-3A8C-4670-97EA-4C4A32AE899E", 1150, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Homer Harris Park", "2401 E HOWELL ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4426", null ], "-122.300994", "47.617309" ]
+, [ 1036, "FBC93FF2-F3A3-4055-8DFC-F3C3F752B8C5", 1036, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fremont Peak Park", "4351 PALATINE AVE N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4424", null ], "-122.356671", "47.661108" ]
+, [ 1149, "89598242-30A1-4668-B9BF-509A8EEAB52A", 1149, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Maclean Park", "1920 TAYLOR AVE N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4422", null ], "-122.345276", "47.636192" ]
+, [ 1148, "871F1FDA-B15D-4F52-B8FB-676706B0A767", 1148, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Trolley Hill Park", "5TH AVE N / BLAINE ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4421", null ], "-122.347039", "47.635143" ]
+, [ 1147, "E8E2EBE6-40D7-484F-8D81-DA0853C1AC23", 1147, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Linden Orchard Park", "N 67th St / Linden Ave N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4419", null ], "-122.347727", "47.678016" ]
+, [ 1035, "359A759C-4565-4F2A-A594-092899CE43D3", 1035, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Oxbow Park", "6430 Corson Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4416", null ], "-122.321583", "47.54499" ]
+, [ 1146, "8CD28203-375B-4127-96AC-D5338537A442", 1146, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Belltown Cottage Park", "2156 Elliott Ave", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4415", null ], "-122.350776", "47.613889" ]
+, [ 1034, "1EE2B8FC-C289-443A-9C0C-07BAB9270F99", 1034, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Hitts Hill Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4413", null ], "-122.28455", "47.554207" ]
+, [ 1145, "8E484BF0-2487-4C7B-AFCE-0D6C3EF6B8AC", 1145, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Herrings House Park (Tulaltx)", "4540 West Marginal Way", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4412", null ], "-122.349545", "47.561514" ]
+, [ 1033, "F1D0BCC2-F20B-40FD-A238-6BE6E4603E9C", 1033, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ravenna Woods", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4411", null ], "-122.303161", "47.662559" ]
+, [ 1144, "5467564C-8ABE-49CE-8B39-6F77959A8D32", 1144, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fairmount Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4410", null ], "-122.382219", "47.580238" ]
+, [ 1143, "659249B0-EC94-4B38-8A2A-1422A1199CC6", 1143, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Greenwood Park", "8905 FREMONT AVE N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4408", null ], "-122.350647", "47.693048" ]
+, [ 1142, "EB43CE22-1F7C-44E4-91D2-4A3425304BC2", 1142, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Thyme Patch Park", "2853 NW 58TH ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4405", null ], "-122.395214", "47.670709" ]
+, [ 1032, "96AA7222-1E24-4096-9CEC-F4D65F059F3C", 1032, 1263313296, "386118", 1263313296, "386118", null, "Parks", "A. B. Ernst Park", "723 N 35TH ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4404", null ], "-122.348825", "47.650088" ]
+, [ 1141, "DC956861-BCF9-47A8-9BD7-958DAE0EBBB2", 1141, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Noras Woods", "720 29TH AVE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4403", null ], "-122.294573", "47.608732" ]
+, [ 1031, "357D44A8-48F7-4AF0-9665-E5FA80C88F70", 1031, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Taejon Park", "1144 STURGUS AVE S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4400", null ], "-122.312163", "47.591919" ]
+, [ 1207, "14B667B3-0BDD-478C-A07D-D881C5674B00", 1207, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Beer Sheva Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=440", null ], "-122.263223", "47.524193" ]
+, [ 1304, "2627EC83-3EC4-4D49-9599-7C460E3380EE", 1304, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Hutchinson Playground", "S Norfolk St and 59th Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=439", null ], "-122.26006214919", "47.5143120790222" ]
+, [ 1303, "D4C94D76-543A-41D6-8896-A8729AC76EA3", 1303, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Victory Heights Playground", "1737 NE 106th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=438", null ], "-122.307833800029", "47.7056715231328" ]
+, [ 1302, "DEB5C6D3-E5D8-48F1-A821-B645A69102B8", 1302, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Benefit Playground", "9320 38th Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=436", null ], "-122.284294216374", "47.5189982440007" ]
+, [ 1301, "6F4B330F-F368-4EB5-8F8A-666357811CD9", 1301, 1263313296, "386118", 1263313296, "386118", null, "Parks", "University Playground", "9th Ave NE and NE 50th St.", [ "http://www.seattle.gov/parks/park_detail.asp?ID=435", null ], "-122.319312327795", "47.6644474051006" ]
+, [ 1206, "FADA8240-EF74-4086-8478-F57F4AEE339E", 1206, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Dr. Jose Rizal Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=433", null ], "-122.318451", "47.592681" ]
+, [ 1205, "FD4BD53A-1051-4184-8887-0661EB3ECFB8", 1205, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Martha Washington Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=432", null ], "-122.260054", "47.542398" ]
+, [ 1300, "C4B7795D-4CDD-4870-AD27-6420E52EC4B9", 1300, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Van Asselt Playground", "7200 Beacon Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=431", null ], "-122.294067595442", "47.5394460989017" ]
+, [ 1043, "B345BB4F-A849-4004-A525-661FF25351F3", 1043, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Horiuchi Park", "156 BOREN AVE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=43", null ], "-122.318981", "47.603132" ]
+, [ 1074, "8C5DBBCA-44BC-4B39-B537-C24DB219A3E1", 1074, 1263313296, "386118", 1263313296, "386118", null, "Parks", "John C. Little, Sr. Park", "6961 37th Avenue S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=429", null ], "-122.286687", "47.539047" ]
+, [ 1204, "BF8704C7-FC74-4183-B75E-488DFE4D841A", 1204, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Seward Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=428", null ], "-122.252449", "47.5543" ]
+, [ 1140, "085D29EC-1331-4A13-9358-85ADF3E13B06", 1140, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ballard Commons Park", "5701 22ND AVENUE NW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4278", null ], "-122.385487", "47.670549" ]
+, [ 1335, "8AE60CFF-865A-4873-B51D-75E4DA607D93", 1335, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Yesler Playfield", "917 E Yesler Way", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4263", null ], "-122.320082556586", "47.601261682324" ]
+, [ 1334, "709CFA97-E715-4E0A-A2EF-AD80BD3BC2CF", 1334, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Benvenuto Viewpoint", "1401 23rd Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4245", null ], "-122.303028784202", "47.589840775465" ]
+, [ 1333, "E1B4F9F8-4B86-4F95-867E-2E33826AB5FE", 1333, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Judge Charles M. Stokes Overlook", "S Judkins St and 20th Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4244", null ], "-122.306962470517", "47.5916324990486" ]
+, [ 999, "3B717E9A-3C4A-41C3-A650-1D241626697C", 999, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Atlantic Street Park", "S ATLANTIC ST\\21ST AVE S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4243", null ], "-122.30566", "47.589165" ]
+, [ 1030, "4BC4F419-4C34-4FDF-B229-661A388C78FD", 1030, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sam Smith Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4242", null ], "-122.297816", "47.589982" ]
+, [ 1332, "26158DD9-C067-4C35-85D0-32DE00F4B360", 1332, 1263313296, "386118", 1263313296, "386118", null, "Parks", "East Portal Viewpoint", "1400 Lake Washington Blvd S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4241", null ], "-122.287892664034", "47.5902217990605" ]
+, [ 1299, "7EC38E86-83E8-462B-B7D4-A433F70951C3", 1299, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Rainier Playfield", "3700 S Alaska St.", [ "http://www.seattle.gov/parks/park_detail.asp?ID=423", null ], "-122.286200070963", "47.5618173265164" ]
+, [ 1298, "DD1E1F8F-77CA-4186-9902-F0F360F89D7A", 1298, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Rainer Beach Playfield", "8802 Rainier Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=422", null ], "-122.273135760829", "47.5250409543704" ]
+, [ 1203, "AA500B76-7A5C-4425-B2EB-6C89B59942DC", 1203, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Chinook Beach Park", "RAINIER AVE S / S ITHACA ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=421", null ], "-122.258376", "47.520135" ]
+, [ 1331, "84BDA72A-856A-427D-8337-DBA665F802FA", 1331, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Puget Ridge Playground", "21st Ave SW and Croft Pl SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4201", null ], "-122.359946978632", "47.5473683327228" ]
+, [ 1330, "122A3214-EC6B-4479-B34C-6BF6D95C43DB", 1330, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Denny Playfield", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4200", null ], "-122.339143311923", "47.61913845141" ]
+, [ 1073, "0A46A1DF-BD95-4548-99FF-3AA86DCAE902", 1073, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Pritchard Island Beach", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=420", null ], "-122.262831", "47.52895" ]
+, [ 1202, "A298144B-8E54-4B9E-8EA5-1B9832184841", 1202, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mount Baker Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=419", null ], "-122.288481", "47.580957" ]
+, [ 1297, "C41DD58F-5159-4E07-A4CC-FE992B19EB0A", 1297, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Maple Wood Playfield", "4801 Corson Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=418", null ], "-122.31884514896", "47.5600408806488" ]
+, [ 1139, "B018F88C-A2D1-4012-9DB4-89F2F9ADFF6E", 1139, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cedar Park", "3707 NE 135TH STREET", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4167", null ], "-122.288042", "47.725808" ]
+, [ 1138, "D6980248-9F4B-4188-8FCF-3C1763AE355D", 1138, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Laurelhurst Triangle", "46TH AV NE/E LAURELHURST DR NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4162", null ], "-122.277487", "47.652696" ]
+, [ 1029, "718149EE-D9B8-4365-B366-D0AFDCF4D58F", 1029, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Northwest 60th Viewpoint", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4161", null ], "-122.406561", "47.672185" ]
+, [ 1201, "E92C5D6B-A7FA-4FE4-A723-980C3F9D9424", 1201, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Thornton Creek Park #1", "1302 10TH AVE NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=416", null ], "-122.307629", "47.707034" ]
+, [ 1137, "28B9816E-4ADF-4B8F-B95F-FA41EAF666FD", 1137, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Twelfth Avenue South Viewpoint", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4159", null ], "-122.317764", "47.577955" ]
+, [ 1028, "144A38D0-AE9F-4539-AFD1-8E2A26F51DBF", 1028, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Greg Davis Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4157", null ], "-122.366001", "47.55437" ]
+, [ 1136, "27E1FAF5-4801-4161-AC91-05590805F9FB", 1136, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Camp Long", "5200 35TH AVE SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4154", null ], "-122.373161", "47.556242" ]
+, [ 1296, "86CD66B2-EE17-4D2B-9B38-EEBCAB2D2D4E", 1296, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lakewood Plaground", "5013 S Angeline St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=414", null ], "-122.270059558155", "47.5588308046035" ]
+, [ 1072, "5F8A2ACE-172F-45DC-956E-7B246B6BF273", 1072, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lakeridge Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=411", null ], "-122.247429", "47.506033" ]
+, [ 1295, "0D3181F2-5BAB-4516-BB75-A2CFBBD31550", 1295, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Georgetown Playfield", "750 S Homer St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=410", null ], "-122.321395622454", "47.5516197319685" ]
+, [ 1200, "0AD6FCE0-E75D-44F9-953E-EFB8943DF248", 1200, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Genesee Park And Playfield", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=409", null ], "-122.278746", "47.564857" ]
+, [ 998, "DF03BDB1-87BC-4DF7-BB43-33841FDCDC83", 998, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Waterway 19", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4083", null ], "-122.332567", "47.646349" ]
+, [ 1027, "A065F8C3-A406-4930-B130-402D6DDB65F8", 1027, 1263313296, "386118", 1263313296, "386118", null, "Parks", "South Day Street Park", "1400 LAKESIDE AVE S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4082", null ], "-122.285724", "47.590365" ]
+, [ 1135, "411E32C9-9AFB-490E-87F4-14844A3CE63A", 1135, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ravenna Park Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4080", null ], "-122.30367", "47.668089" ]
+, [ 1199, "C70490DE-350A-4EF4-8B91-959054E3C7B7", 1199, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Dearborn Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=408", null ], "-122.296225", "47.553389" ]
+, [ 1026, "B906AAD6-33F6-4811-A8E6-3132FF858396", 1026, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lewis Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4076", null ], "-122.314435", "47.592857" ]
+, [ 1134, "F38F9932-C064-46AC-86EA-DAE3DF7B746F", 1134, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lynn Street Mini Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4075", null ], "-122.32975", "47.639849" ]
+, [ 997, "47DA51A4-8E31-4E7B-B92E-46EC2ED424CE", 997, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Banner Way Triangles", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4073", null ], "-122.32343", "47.685762" ]
+, [ 1025, "A2A585E6-7AE5-4618-9AC6-D7233A6FF16E", 1025, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Crown Hill Glen", "8735 19TH AVE NW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4070", null ], "-122.381394", "47.693703" ]
+, [ 1294, "4BE8ED3F-0D1E-490A-ACB6-0277985F8168", 1294, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Colman Playground", "1740 23rd Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=406", null ], "-122.301957035525", "47.587625380775" ]
+, [ 1071, "6E6B839A-654B-4B74-878E-1245B0D8F9F2", 1071, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Colman Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=405", null ], "-122.288611", "47.585469" ]
+, [ 1133, "19992CE0-CD03-4924-A96D-AA87A9FC6D72", 1133, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Carleton Highlands", "3298 Perkins Lane W.", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4049", null ], "-122.415934", "47.650028" ]
+, [ 1132, "0075496B-B9EC-41F2-AD61-6F837B6CE3AB", 1132, 1263313296, "386118", 1263313296, "386118", null, "Parks", "South Park Meadow", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4048", null ], "-122.323649", "47.520795" ]
+, [ 1131, "57434829-FD77-4893-BE40-1D1FA2C5F490", 1131, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Rainbow Point", "625 NE BANNER PLACE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4045", null ], "-122.320476", "47.682713" ]
+, [ 1293, "1D4FC229-5A56-4063-BFBE-1341B2A5BF82", 1293, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cleveland Playfield", "S Lucile St and 13th Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=404", null ], "-122.315542025326", "47.5520115483017" ]
+, [ 1130, "8F018066-B68E-489B-A5F8-96B3562356FE", 1130, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Columbia Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4034", null ], "-122.287395", "47.559792" ]
+, [ 1292, "3D6E6916-FA95-48C9-87DA-EF447075DC97", 1292, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Othello Playground", "4351 S Othello St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=403", null ], "-122.278104890608", "47.5362144800422" ]
+, [ 1129, "ADCD54D6-26F6-4031-A07E-FE120B719DE3", 1129, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Beck Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4028", null ], "-122.312027", "47.671888" ]
+, [ 1128, "7077A58D-669D-4515-AEDF-1F08EEF135A7", 1128, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lakewood Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4024", null ], "-122.28372", "47.576058" ]
+, [ 1329, "DA501196-2D5F-442E-B2AE-4DDC216DA501", 1329, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Nathan Hale Playfield", "10750 30th Ave NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4023", null ], "-122.292028169283", "47.7077147290923" ]
+, [ 1127, "EDC5F607-5376-41E7-9EFF-B7C3E4A54F63", 1127, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bellevue Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4022", null ], "-122.327658", "47.626904" ]
+, [ 1291, "EAE76378-A273-4B07-8778-22296DCEC2E9", 1291, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Brighton Playfield", "6000 39th Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=402", null ], "-122.282099579571", "47.548387353425" ]
+, [ 1126, "D14078DA-C19E-4D1B-A00A-7181943E30DF", 1126, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mount Claire Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4019", null ], "-122.28642", "47.580737" ]
+, [ 1125, "738251F3-4F66-4D89-9A9B-59E80BB27133", 1125, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Crescent Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4018", null ], "-122.333029", "47.684317" ]
+, [ 1124, "8B722E58-FD36-428E-A8D9-2E97DB358AD7", 1124, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Corliss Place", "N 50TH ST / KEYSTONE PL N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4017", null ], "-122.330874", "47.665198" ]
+, [ 1123, "07F0D960-C9A2-4A0D-869D-F4B99869ACDF", 1123, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Williams Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4016", null ], "-122.313094", "47.619809" ]
+, [ 1122, "6F7EEF5E-931B-43C8-A280-855FB23F7CDC", 1122, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Miller Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4015", null ], "-122.305711", "47.620311" ]
+, [ 1121, "590221BA-0495-49E3-BF07-94CB4A133D62", 1121, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Thayer Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4014", null ], "-122.250038", "47.510613" ]
+, [ 1120, "04B8ADFB-2288-4BE2-9108-E722FD65069D", 1120, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Eastmont Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4012", null ], "-122.405566", "47.63769" ]
+, [ 1119, "944094B5-60A0-4698-A32A-86AAA3608057", 1119, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fremont Canal Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4011", null ], "-122.357864", "47.651802" ]
+, [ 1198, "5DCF257D-EA79-4852-A9B0-793BE801D3E1", 1198, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bradner Gardens Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=401", null ], "-122.295426", "47.587419" ]
+, [ 1118, "03B83790-BBA0-4000-8000-3CD99E8188B5", 1118, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Parkmont Place", "MAGNOLIA BLVD W/W PARKMONT PL", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4009", null ], "-122.410083", "47.640142" ]
+, [ 1117, "8BF8B338-7700-4EF4-9616-37B2186AEEBD", 1117, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mcgilvra Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4008", null ], "-122.313032", "47.614233" ]
+, [ 1116, "CC40A218-AD3D-4209-A720-E653B69A8FAC", 1116, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Union Station Square", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4007", null ], "-122.330086", "47.599362" ]
+, [ 1328, "9F8D11BF-7005-49F9-8302-AB78DBEA0B69", 1328, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bagley Viewpoint", "2548 Delmar Dr E", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4006", null ], "-122.318346887431", "47.6430148390685" ]
+, [ 1115, "0F3F78D9-6BE6-46BA-8FA8-CAA5C81D22D7", 1115, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Madrona Briar Patch", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4005", null ], "-122.284261", "47.615231" ]
+, [ 1327, "9F936DF2-F555-40C6-B93E-26900019CE32", 1327, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lake City Playground", "2750 NE 125th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=4002", null ], "-122.299373591493", "47.7179550153166" ]
+, [ 1114, "882E2DD3-5990-4AE0-AEFF-AA426552DC6B", 1114, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Inverness Ravine Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4001", null ], "-122.280809", "47.691145" ]
+, [ 1113, "452EBADE-4F44-4DEA-B5F3-C0371CB7C4CB", 1113, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Plymouth Pillars Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=4000", null ], "-122.329092", "47.614124" ]
+, [ 1290, "0F6E6BEB-F1E9-4CFE-97E3-A23D930C7270", 1290, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Beacon Hill Playground", "1902 13th Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=400", null ], "-122.315324628371", "47.5862263145601" ]
+, [ 1112, "E7F2478B-35F2-4C86-8F36-207B887AE07F", 1112, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Rainier Place", "298 NW 53RD ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3999", null ], "-122.359434", "47.667567" ]
+, [ 1111, "D4B6E844-BF6E-4D41-AF81-ADA623D709BB", 1111, 1263313296, "386118", 1263313296, "386118", null, "Parks", "University Lake Shore Place", "4275 NE 125TH ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3998", null ], "-122.28006", "47.718937" ]
+, [ 1110, "B7055F84-73D3-4A55-9CC7-2B68A1FB39CF", 1110, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Broadview Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3997", null ], "-122.355836", "47.717936" ]
+, [ 1109, "65D413B9-04CE-40EE-A3B3-903258CC72C8", 1109, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Puget Creek Greenspace", "SW BRANDON ST/19TH AVE SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3993", null ], "-122.358556", "47.55187" ]
+, [ 1197, "B25DBAB3-F23A-475E-B1A3-9A24D599FDC0", 1197, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Volunteer Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=399", null ], "-122.315568", "47.630378" ]
+, [ 1108, "C595511F-960C-4319-B066-72AF193F6BFE", 1108, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Soundview Terrace", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3987", null ], "-122.37141", "47.640849" ]
+, [ 1107, "774C82A2-C4BA-4FFA-8DF3-E514E3251C91", 1107, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Coe Play Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3985", null ], "-122.365952", "47.640108" ]
+, [ 1326, "75F262E2-C26C-4B4D-B003-18C8C96897BA", 1326, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Queen Anne Bowl Playfield", "2806 3rd Ave W", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3984", null ], "-122.359710617651", "47.6455992268977" ]
+, [ 1106, "C728F6BD-9B63-4DB5-9940-2E175207E3F5", 1106, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Denny Blaine Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3982", null ], "-122.280548", "47.62011" ]
+, [ 1105, "B73F8F42-552E-470B-A2EC-2488BB4E7990", 1105, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Stevens Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3981", null ], "-122.283592", "47.619443" ]
+, [ 1104, "0E26A23A-CC05-4886-82E9-24D7B73703CA", 1104, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Denny Blaine Lake Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3980", null ], "-122.284838", "47.61833" ]
+, [ 1070, "E2D26CF8-1CB8-491F-AE04-412F14B10BED", 1070, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Warren G. Magnuson Park", "6550 Sand Point Wy NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=398", null ], "-122.255086", "47.680304" ]
+, [ 1024, "441F316F-2CCD-4E69-B2F7-846F378721B1", 1024, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Highland Place", "HIGHLAND DR / 1ST AVE N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3979", null ], "-122.355466", "47.629656" ]
+, [ 1103, "16CD8701-749A-4EA2-B5DD-AB907B252BCF", 1103, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Eastlake Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3977", null ], "-122.328918", "47.62841" ]
+, [ 1102, "00D3C6F2-2E7D-4E11-8C8A-2C041BBE00DF", 1102, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ne 60th Street Park", "5TH AVE NE/NE 60TH ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3975", null ], "-122.322634", "47.671728" ]
+, [ 1023, "25EAC044-235F-4EF5-AA98-07A5B8D77548", 1023, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Waterfront Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3973", null ], "-122.342196", "47.606778" ]
+, [ 1101, "9F90DF95-C20C-4BD2-9992-0B2219396428", 1101, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lakeridge Playground", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3972", null ], "-122.246841", "47.510321" ]
+, [ 1196, "DDE1DD58-81AF-48AE-BC05-A34DD59027DD", 1196, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Judkins Park And Playfield", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=397", null ], "-122.303953", "47.592425" ]
+, [ 1195, "34DF176F-C2E8-4609-845E-A92FC0A98F08", 1195, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Dr. Blanche Lavizzo Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=395", null ], "-122.304179", "47.600278" ]
+, [ 1022, "3A29AFEE-B279-4BFE-A8E4-014D7F62137A", 1022, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fletcher Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3948", null ], "-122.261484", "47.519093" ]
+, [ 1100, "CD16A3C8-1AFD-454F-BFD9-A37F3580FA9D", 1100, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Katharine Colman Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3942", null ], "-122.38779", "47.520876" ]
+, [ 1325, "2CF97F27-5764-4A95-95BC-76AFA04B3008", 1325, 1263313296, "386118", 1263313296, "386118", null, "Parks", "High Point Playfield", "6920 34th Ave SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3941", null ], "-122.373414932477", "47.5401697408767" ]
+, [ 1289, "13E6BC27-C9FA-428F-95DD-881BDABC9E31", 1289, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sacajawea Playground", "1726 NE 94th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=394", null ], "-122.308131595437", "47.6971318737822" ]
+, [ 1194, "F0B9073F-E0AF-4340-A585-9D64F6D2D4F9", 1194, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Foster Island (Wash. Park)", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=393", null ], "-122.294833", "47.636478" ]
+, [ 1021, "D3BC6585-6BEE-4619-94CE-5053DD797D77", 1021, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sierra Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3928", null ], "-122.282492", "47.573282" ]
+, [ 1324, "F28FBE67-A9C9-4712-BA7B-94DE358D3EAC", 1324, 1263313296, "386118", 1263313296, "386118", null, "Parks", "York Playground", "3327 34th Ave S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3926", null ], "-122.29071342709", "47.5726945845554" ]
+, [ 1099, "5C3BCBAE-4734-40EF-8E19-17EB471C0E8E", 1099, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Martin Luther King Jr Memorial", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3923", null ], "-122.297163", "47.582757" ]
+, [ 1020, "C0FA2D3D-ABEE-4D65-9365-4BD7E5098297", 1020, 1263313296, "386118", 1263313296, "386118", null, "Parks", "College Street Park", "2915 S COLLEGE ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3922", null ], "-122.294616", "47.582697" ]
+, [ 1098, "2E2A25A3-DEB0-4497-AAA9-D332A2ADE3A2", 1098, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fauntleroy Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3921", null ], "-122.379834", "47.562715" ]
+, [ 1323, "4B2C90DF-4725-4DDF-96B5-366B31664259", 1323, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Emma Schmitz Memorial Overlook", "4503 Beach Dr. SW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3920", null ], "-122.40712042032", "47.5628975696743" ]
+, [ 1069, "DF43CF39-49AF-4C99-9DB3-9867F6597DAB", 1069, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Leschi Park", "100 LAKESIDE AV S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=392", null ], "-122.290256", "47.599506" ]
+, [ 1019, "A06E1E50-189A-4DD1-9D9E-368A49DAF1AB", 1019, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Stevens Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3919", null ], "-122.310563", "47.577122" ]
+, [ 1097, "5433985F-F27B-4D6E-A434-381B520CD043", 1097, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mcclellan Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3918", null ], "-122.311952", "47.578768" ]
+, [ 1096, "765BDDB9-E7A4-43E1-BF44-13FF9AF9BB43", 1096, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Nantes Park", "5062 SW ADMIRAL WAY", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3916", null ], "-122.397063", "47.579565" ]
+, [ 1018, "04AD300C-547B-46C4-9A90-1E65EFFE0609", 1018, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kobe Terrace", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3915", null ], "-122.324494", "47.60042" ]
+, [ 1095, "0C33AAD5-D613-4970-B990-09D90E2ED2BD", 1095, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Alvin Larkins Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3914", null ], "-122.288745", "47.614318" ]
+, [ 1322, "00321BBE-1BD4-4CFB-88C4-3A204654E61C", 1322, 1263313296, "386118", 1263313296, "386118", null, "Parks", "T.T. Minor Playground", "17th Ave E and E Union St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3913", null ], "-122.310543098826", "47.6131107170061" ]
+, [ 1094, "F394969B-3188-41C6-8770-CEC0764CB098", 1094, 1263313296, "386118", 1263313296, "386118", null, "Parks", "First Hill Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3910", null ], "-122.325512", "47.611906" ]
+, [ 1193, "CE599CE2-0CE1-49A2-A443-D07BD83F478E", 1193, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ravenna Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=391", null ], "-122.305705", "47.671402" ]
+, [ 1017, "AB81BD19-2F1C-4849-81B3-98D69AEBF9B1", 1017, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Tilikum Place", "5TH AVE & DENNY WAY", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3909", null ], "-122.347411", "47.618382" ]
+, [ 1093, "0F47895D-9BFF-4653-9E19-ED568A25543A", 1093, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Blaine Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3907", null ], "-122.364152", "47.626809" ]
+, [ 1092, "B05660F9-8EE1-41FF-846F-E3AFFC0416BB", 1092, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Hyde Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3905", null ], "-122.282887", "47.632304" ]
+, [ 1016, "51B79E48-D858-4EF7-BAFA-F0E3BE2E68B4", 1016, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cascade Place", "5199 PALMER CT NW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3902", null ], "-122.358092", "47.666216" ]
+, [ 1091, "875539CB-EF43-4123-BC52-BE0E95A882D6", 1091, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sunset Place", "1ST AVE NW /  NW 52ND ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3901", null ], "-122.357602", "47.666686" ]
+, [ 1068, "AEB707BD-D032-4F88-A849-A77BD6A2189E", 1068, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Pratt Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=390", null ], "-122.307463", "47.600705" ]
+, [ 1090, "E3B783D5-E9E6-4496-868D-014B6E21F9A3", 1090, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Wedgwood Square", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3899", null ], "-122.294772", "47.688151" ]
+, [ 1015, "4CDDB594-9C19-408F-A272-E6C46CEE3BCD", 1015, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Terry Pettus Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3889", null ], "-122.329689", "47.636741" ]
+, [ 1321, "A0B3FE8D-1421-40CF-BB2D-421998F4D106", 1321, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Interbay Athletic Complex", "3027 17th Ave W", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3887", null ], "-122.379191275215", "47.6472393920114" ]
+, [ 1320, "82376B69-CA38-458B-9A75-9C66EF7DD3D9", 1320, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Maple Leaf Playground", "1020 NE 82nd St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3881", null ], "-122.315612904851", "47.6890145029702" ]
+, [ 1089, "CDEBBE1E-F824-4271-84BD-1BB4E8964239", 1089, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Keystone Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3880", null ], "-122.333769", "47.670304" ]
+, [ 1192, "01BC095F-B166-4860-896E-C741A7A96B0A", 1192, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Plum Tree Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=387", null ], "-122.299142", "47.617053" ]
+, [ 1191, "8EDEDE0D-D4B1-4D8C-AC12-0C6CE202C541", 1191, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Thomas Street Mini Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=386", null ], "-122.326216", "47.621036" ]
+, [ 1067, "52FE25C6-6EF4-4BA3-A106-4A64B92FD11B", 1067, 1263313296, "386118", 1263313296, "386118", null, "Parks", "William Grose Park", "1814 30TH AVE E", [ "http://www.seattle.gov/parks/park_detail.asp?ID=385", null ], "-122.29294", "47.618021" ]
+, [ 1190, "AFF88A3B-19E1-4EFE-B466-74B6420E7B90", 1190, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Tashkent Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=384", null ], "-122.323444", "47.62379" ]
+, [ 1066, "05B473A9-3D80-4CF1-A741-2E2922CFE9EC", 1066, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Summit Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=383", null ], "-122.325708", "47.627081" ]
+, [ 1288, "801DBA7D-92A1-4696-BF7F-B47BCA905291", 1288, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Pinehurst Playground", "12029 14th Ave. NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=382", null ], "-122.314628211158", "47.7164362240396" ]
+, [ 1189, "152BF5FB-AF0A-4241-9DE6-7BD1F82D9695", 1189, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Spring Street Mini Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=381", null ], "-122.3124", "47.611801" ]
+, [ 1287, "239BF237-FAFD-4E3F-B01F-60BAD59CED2D", 1287, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Rogers Playground", "Eastlake Ave E and E Roanoke St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=380", null ], "-122.325256868431", "47.6426009492446" ]
+, [ 1188, "F4EBC638-CA94-4103-9F6A-7DDD102428C5", 1188, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Roanoke Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=379", null ], "-122.320185", "47.643723" ]
+, [ 1286, "2341FB7D-EAB3-48EB-8F6D-E2C2BD1D9146", 1286, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Peppi'S Playground", "3233 E Spruce St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=378", null ], "-122.29060161753", "47.6027234663951" ]
+, [ 1065, "11AB932E-8A63-4173-B144-24351DB77CB7", 1065, 1263313296, "386118", 1263313296, "386118", null, "Parks", "South Passage Point Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=377", null ], "-122.322489", "47.652204" ]
+, [ 1285, "679E637F-9BF4-42AC-B3C3-E7E646C05C94", 1285, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Montlake Playfield", "1618 E Calhoun St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=376", null ], "-122.310081020631", "47.6424066868121" ]
+, [ 1014, "F9E0D068-B0B8-45D5-A067-19B6F4F425E4", 1014, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Gerber Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3759", null ], "-122.296568", "47.607709" ]
+, [ 1088, "E465F880-3617-4469-9EE6-504F26341DCE", 1088, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Union Bay Boglands #2", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3751", null ], "-122.286524", "47.656318" ]
+, [ 1187, "241ADCDE-6CDC-483B-B3DF-D7971759F756", 1187, 1263313296, "386118", 1263313296, "386118", null, "Parks", "West Montlake Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=375", null ], "-122.30982", "47.646219" ]
+, [ 1064, "0711B8A8-15F2-4014-81A4-402FA4A3EBF0", 1064, 1263313296, "386118", 1263313296, "386118", null, "Parks", "East Montlake Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=374", null ], "-122.301265", "47.646019" ]
+, [ 1284, "1E273276-25F2-4F5D-967B-9013B145E4FB", 1284, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Miller Playfield", "400 19th Ave E", [ "http://www.seattle.gov/parks/park_detail.asp?ID=373", null ], "-122.306261412155", "47.6214333231101" ]
+, [ 1186, "4C5279B3-8EF2-4AEF-A4B4-41BA124FE285", 1186, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mccurdy (Horace) Park", "E HAMLIN ST / E PARK DR E", [ "http://www.seattle.gov/parks/park_detail.asp?ID=372", null ], "-122.300955", "47.644951" ]
+, [ 1283, "D909CEDD-FE05-4FB6-8865-97F41669DA3F", 1283, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Madrona Playground", "3211 E Spring St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=371", null ], "-122.289885186905", "47.6110216491653" ]
+, [ 1319, "BA9279CC-4CFF-43F0-B276-CD309453EAEC", 1319, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bar-S Playground", "6425 SW Admiral Way", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3703", null ], "-122.416054352165", "47.5751951223366" ]
+, [ 1185, "A5BBBCE6-CF86-4ACF-9191-1CDA95148AD9", 1185, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Madrona Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=370", null ], "-122.28268", "47.609298" ]
+, [ 1087, "836F99D3-78E4-49BD-97DD-7CC1D0E535F1", 1087, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Harvard-Miller/Roanoke Annex", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3695", null ], "-122.321643", "47.641091" ]
+, [ 1013, "5224EAF2-2BD1-421B-946B-8B58590ECC16", 1013, 1263313296, "386118", 1263313296, "386118", null, "Parks", "West Ewing Mini Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3694", null ], "-122.360602", "47.65205" ]
+, [ 1063, "FDD0BCB2-498A-421F-B420-3F0BD027AD4A", 1063, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Madison Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=369", null ], "-122.276692", "47.63561" ]
+, [ 1184, "1B08BBAB-C2CF-4232-9283-83F57B1C6D89", 1184, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Leschi Park", "100 LAKESIDE AV S", [ "http://www.seattle.gov/parks/park_detail.asp?ID=367", null ], "-122.28655", "47.60093" ]
+, [ 1183, "9392C827-830E-4D89-958B-920A9EBBE87D", 1183, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lakeview Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=366", null ], "-122.325705", "47.62939" ]
+, [ 1062, "A4D0A6D9-AF94-4C58-BAE0-9092B262E678", 1062, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lakeview Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=365", null ], "-122.284731", "47.62205" ]
+, [ 1182, "17E0A1F9-7CC1-4C59-B8F4-33C83E9236DB", 1182, 1263313296, "386118", 1263313296, "386118", null, "Parks", "International Childrens Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=364", null ], "-122.323412", "47.596897" ]
+, [ 1181, "F6DD95F4-AE8A-472D-BA8C-F60577BCDECD", 1181, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Flo Ware Park", "2800 S JACKSON ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=363", null ], "-122.295868", "47.599557" ]
+, [ 1061, "EFAF787C-9BE6-4C5C-BA89-03E021E47DF4", 1061, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Northacres Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=361", null ], "-122.326993", "47.721559" ]
+, [ 1180, "426F3D62-355D-4B79-97B2-FFE860FFB133", 1180, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Howell Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=359", null ], "-122.280314", "47.617519" ]
+, [ 1179, "6D4D63D5-BA90-493C-B275-E77D5E64FABD", 1179, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Hing Hay Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=358", null ], "-122.325435", "47.598609" ]
+, [ 1178, "055C6FCD-2BB1-456D-BFBC-F8BC7F2FABF5", 1178, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Prentis I. Frazier Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=357", null ], "-122.301614", "47.622895" ]
+, [ 1177, "C72F4C41-DBE0-4005-B6DB-4681E7D7EC3F", 1177, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Harrison Ridge Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=356", null ], "-122.290339", "47.619711" ]
+, [ 1176, "2DDBAEA6-D98B-41DD-B616-F9B5B0A6CAB1", 1176, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Grand Army Cemetery", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=354", null ], "-122.316261", "47.636461" ]
+, [ 1282, "F979A354-B136-407D-9C67-1D36D943A3A3", 1282, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Garfield Playfield", "23rd Ave and E Cherry St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=353", null ], "-122.301411867027", "47.6070978006384" ]
+, [ 1281, "E90B9634-1665-4881-AB04-6B297596B964", 1281, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Meadowbrook Playfield", "10533 35th Ave NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=352", null ], "-122.293492857914", "47.7057711129745" ]
+, [ 1175, "08444D1A-8DF3-42F2-A84A-50AE6B01CA3E", 1175, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Firehouse Mini Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=351", null ], "-122.308558", "47.608448" ]
+, [ 1280, "027B9C14-A151-41D6-BC66-01739716F5F0", 1280, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cascade Playground", "333 Pontius Ave N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=350", null ], "-122.332354809849", "47.6214052249468" ]
+, [ 1174, "4D118B1A-8027-4C7D-BC1A-58CAE4C7A967", 1174, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Boylston Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=349", null ], "-122.32094", "47.609976" ]
+, [ 1173, "39CB7432-8613-45CA-B219-9EFAB6D287D9", 1173, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Boren Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=348", null ], "-122.320952", "47.604999" ]
+, [ 1172, "D5A5A512-F915-4325-BA90-D31B7AC69E72", 1172, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Belmont Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=346", null ], "-122.324408", "47.625727" ]
+, [ 1171, "5556D5A6-564E-4788-83B0-A50DC80A2EA0", 1171, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Powell Barnett Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=345", null ], "-122.295998", "47.605196" ]
+, [ 1170, "8DF34A96-05F0-4BA4-A112-FCA150A15C90", 1170, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lake Union Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=344", null ], "-122.337477", "47.627142" ]
+, [ 1169, "EE0EAE24-8C4F-4BD0-828A-F1B93DAAAF55", 1169, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Thorndyke Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=343", null ], "-122.390161", "47.635099" ]
+, [ 1168, "1372E33F-C27F-4788-AF72-DEF0AD71961F", 1168, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kerry Park And Viewpoint", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=342", null ], "-122.359873", "47.629024" ]
+, [ 1279, "87BF9427-63CB-4325-B04D-713F196E7958", 1279, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Laurelhurst Playfield", "4544 NE 41st St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=340", null ], "-122.278019181289", "47.6598895174452" ]
+, [ 1167, "EE93219F-66CA-40C4-B17F-872C127BCC4D", 1167, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mcgraw Square", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=339", null ], "-122.337587", "47.61299" ]
+, [ 1166, "DCA592CE-2937-4D39-B4E9-6137043C2BD3", 1166, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Victor Steinbrueck Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=338", null ], "-122.343871", "47.610153" ]
+, [ 1165, "528B2069-C365-42C9-AA24-FC1D0385B21C", 1165, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Regrade Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=336", null ], "-122.344775", "47.614331" ]
+, [ 1164, "F7272D3D-2856-4086-9916-3517798F39B9", 1164, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Westlake Square", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=334", null ], "-122.337285", "47.613627" ]
+, [ 1163, "24E56248-FB01-4B01-9533-0B931F8D4C00", 1163, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lake City Memorial Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=333", null ], "-122.295266", "47.718819" ]
+, [ 1162, "C9620CB5-3CFC-454E-9AE4-68C1D7B3CE1D", 1162, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Westlake Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=332", null ], "-122.33724", "47.611099" ]
+, [ 1161, "E8747BBF-C90A-4FDE-B972-D8D6B81481C3", 1161, 1263313296, "386118", 1263313296, "386118", null, "Parks", "David Rodgers Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=331", null ], "-122.359485", "47.644135" ]
+, [ 1278, "B7F7727F-FC8A-45A0-9EBA-3FA57A317AE9", 1278, 1263313296, "386118", 1263313296, "386118", null, "Parks", "West Queen Anne Playfield", "150 W Blaine St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=330", null ], "-122.359503883522", "47.6355140819519" ]
+, [ 1277, "062D7817-0C22-4AA1-A84F-0018BB933AB1", 1277, 1263313296, "386118", 1263313296, "386118", null, "Parks", "East Queen Anne Playground", "1912 Warren Ave N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=329", null ], "-122.353785822709", "47.6361389994322" ]
+, [ 1160, "79014549-E44F-44EC-BD49-B36B6A944583", 1160, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Prefontaine Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=326", null ], "-122.330883", "47.601844" ]
+, [ 1159, "A416102D-1717-4CD0-A129-1E4FEBB7436A", 1159, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Pioneer Square", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=325", null ], "-122.333886", "47.602076" ]
+, [ 1158, "50A3AD91-AF4A-4BEF-8BB5-FEE747CB442A", 1158, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Occidental Square", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=323", null ], "-122.333272", "47.600463" ]
+, [ 1157, "E2CD3E99-D330-4BA7-83D4-A67C18EF2889", 1157, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Observatory Courts", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=322", null ], "-122.355134", "47.631342" ]
+, [ 1265, "8574D540-61A4-4179-8C7F-6A7CFFA6FE42", 1265, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mayfair Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=321", null ], "-122.353356", "47.643241" ]
+, [ 1264, "8FD01807-4B56-4267-B703-F3FFAEBD1235", 1264, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Marshall Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=320", null ], "-122.366805", "47.629436" ]
+, [ 1276, "6E84EE11-1958-4978-BFF5-CD1417363119", 1276, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Magnolia Playfield", "2518 34th Ave W", [ "http://www.seattle.gov/parks/park_detail.asp?ID=319", null ], "-122.399472233563", "47.6437458208129" ]
+, [ 1275, "1EE3FCB6-0956-46C4-9CA7-7DA866B8A14F", 1275, 1263313296, "386118", 1263313296, "386118", null, "Parks", "East Magnolia Playfield", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=318", null ], "-122.391059670129", "47.6405844763879" ]
+, [ 1263, "8A52CF53-835F-4CBA-AF0C-CB0D86EF0FCF", 1263, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Magnolia Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=317", null ], "-122.397348", "47.633427" ]
+, [ 1262, "D3E40746-866B-4CCD-A4AE-9C72995551F6", 1262, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lawton Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=316", null ], "-122.391157", "47.655064" ]
+, [ 1261, "6C94CB14-EE41-411B-9F12-CA510BDBDE67", 1261, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kinnear Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=315", null ], "-122.356978", "47.626151" ]
+, [ 1260, "4AC577B0-EBDD-4159-A1DB-C18FEFBDB466", 1260, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kinnear Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=314", null ], "-122.367205", "47.627316" ]
+, [ 1086, "E2E4DFF4-E266-4746-8DCF-922E0619E07C", 1086, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Jimi Hendrix Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3121", null ], "-122.300842", "47.588907" ]
+, [ 1259, "C8D58BA7-9543-40F2-9A1F-37114422C490", 1259, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Freeway Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=312", null ], "-122.330904", "47.609472" ]
+, [ 1085, "552A41FF-6BD2-4094-8938-2E38E525E0BB", 1085, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Spruce Street Mini Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3117", null ], "-122.304648", "47.603091" ]
+, [ 1258, "D9AAF616-71A4-4F0C-A223-D05E053C0D6D", 1258, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Myrtle Edwards Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=311", null ], "-122.36087", "47.618767" ]
+, [ 1012, "E203A982-7B60-4B0F-BCD4-1B95486319A5", 1012, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cal Anderson Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3102", null ], "-122.319134", "47.617013" ]
+, [ 1060, "D83B3FAC-E8BA-483F-83F1-5A3274116452", 1060, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Discovery Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=310", null ], "-122.416228", "47.660498" ]
+, [ 1084, "08E8A9F0-E654-400F-9662-2F7415775E75", 1084, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Viretta Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3098", null ], "-122.282003", "47.61875" ]
+, [ 1011, "98037862-32A6-497B-B977-8796F3388596", 1011, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Lambert Place", "38TH AVE E / E MADISON ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3096", null ], "-122.283837", "47.632017" ]
+, [ 1257, "A3DC486D-604E-4B02-BB32-36BCEDF6E9CE", 1257, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Denny Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=309", null ], "-122.341049", "47.61913" ]
+, [ 1256, "10746439-EB4D-4FCD-84FF-BB412AE3E01C", 1256, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Commodore Park", "3330 W COMMODORE WAY", [ "http://www.seattle.gov/parks/park_detail.asp?ID=308", null ], "-122.40014", "47.66538" ]
+, [ 1059, "8E93508D-61DB-4D63-AE0C-412B10FB1F88", 1059, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Green Lake Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=307", null ], "-122.331029", "47.681711" ]
+, [ 1255, "22592406-4DFE-4576-B684-3880E29E08AA", 1255, 1263313296, "386118", 1263313296, "386118", null, "Parks", "City Hall Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=306", null ], "-122.329875", "47.602022" ]
+, [ 1254, "39FA180A-680A-4D8B-BC1A-100935D48418", 1254, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Carleton Center", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=305", null ], "-122.406385", "47.639414" ]
+, [ 1058, "F3D30D16-4051-49E7-B937-2F7F382BFDE6", 1058, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bhy Kracke Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=304", null ], "-122.348402", "47.630425" ]
+, [ 1274, "E6277896-B1C6-4C05-8797-7A8C3E7CA1D4", 1274, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bayview Playground", "2614 24th Ave W", [ "http://www.seattle.gov/parks/park_detail.asp?ID=303", null ], "-122.38678612823", "47.6438017035719" ]
+, [ 1083, "ED576BEB-4CD0-455B-BD16-A95380D10A5B", 1083, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Interlaken Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=3023", null ], "-122.308316", "47.636257" ]
+, [ 1253, "7A04E3A9-D4D6-4DB7-8D23-CD9A89A29A40", 1253, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Llandover Woods Greenspace", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=301", null ], "-122.364545", "47.733024" ]
+, [ 1082, "B2F0F553-A4EB-4CDB-B319-F5B0C936918E", 1082, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Open Water Park", "ELLIOTT BAY MARINA TO PIER 91", [ "http://www.seattle.gov/parks/park_detail.asp?ID=3005", null ], "-122.386693", "47.629555" ]
+, [ 1252, "0669799B-AFC8-4C3F-90B9-872B2B7D943C", 1252, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Orchard Street Ravine", "39TH SW / SW ORCHARD ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=300", null ], "-122.380151", "47.538315" ]
+, [ 1057, "004820A6-EC56-4BF7-A63E-0AB12167377D", 1057, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Marvins Garden", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=298", null ], "-122.384972", "47.667976" ]
+, [ 1010, "0CEC179D-E847-4A7D-B64E-A5FF46142E08", 1010, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Fairview Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=2975", null ], "-122.324917", "47.647741" ]
+, [ 1251, "311BE5C7-D1FA-4C19-9162-F4BCDD4D87E2", 1251, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Little Brook Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=297", null ], "-122.294567", "47.731387" ]
+, [ 1056, "400F780A-BD3E-4FB2-B41B-41B43E5C7D10", 1056, 1263313296, "386118", 1263313296, "386118", null, "Parks", "3001 E Madison", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=296", null ], "-122.293173", "47.625169" ]
+, [ 1081, "35FB54FB-1D8D-407F-953E-1D89BD863629", 1081, 1263313296, "386118", 1263313296, "386118", null, "Parks", "North Passage Point Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=2956", null ], "-122.32243", "47.653962" ]
+, [ 1250, "888C22B4-3DB1-4306-ABAE-EB5621DF7A02", 1250, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Cormorant Cove", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=295", null ], "-122.412089", "47.570984" ]
+, [ 1249, "1F9F4864-3FF5-4034-8488-03DCF3FCC813", 1249, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Gas Works Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=293", null ], "-122.334908", "47.645638" ]
+, [ 1229, "BF7A3222-468B-4B2E-A059-7B11D31528D2", 1229, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Andover Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=2927", null ], "-122.409993", "47.568517" ]
+, [ 1055, "176BAB7D-0AD4-449D-83F6-2112615D6C10", 1055, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Woodland Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=292", null ], "-122.344218", "47.668907" ]
+, [ 1248, "7BA45FC3-9902-4B92-8228-E6A4AF976BC1", 1248, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mineral Springs Park", "1500 N 105TH STREET", [ "http://www.seattle.gov/parks/park_detail.asp?ID=291", null ], "-122.336528", "47.705755" ]
+, [ 1247, "D9D1C99D-C297-4213-A0CD-E4F395458CAC", 1247, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sturtevant Ravine", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=290", null ], "-122.268561", "47.51783" ]
+, [ 1273, "44372896-EF36-4376-8497-C3C4410006E0", 1273, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Loyal Heights Playfield", "2101 NW 77th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=289", null ], "-122.38324017016", "47.6841059362952" ]
+, [ 1272, "8D92F7C9-EA09-4290-B7D5-EED8820B7AC3", 1272, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bitter Lake Playfield", "13035 Linden Ave N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=288", null ], "-122.349314334665", "47.724209093647" ]
+, [ 1271, "A5F3B852-BCD0-4029-BA76-65CE8EB63F13", 1271, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Froula Playground", "7200 12th Ave NE", [ "http://www.seattle.gov/parks/park_detail.asp?ID=287", null ], "-122.313978443867", "47.6805383223391" ]
+, [ 1246, "0DE7DA0A-07FD-4BD5-B088-0706CA6D422E", 1246, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Licton Springs Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=286", null ], "-122.338736", "47.698541" ]
+, [ 1009, "BAD2DC30-85D9-49CE-A976-B4D2C11BCF09", 1009, 1263313296, "386118", 1263313296, "386118", null, "Parks", "St Marks Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=2848", null ], "-122.322174", "47.63115" ]
+, [ 1228, "07C69686-078D-4D69-B92C-48E3DFE879F7", 1228, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Baker Park On Crown Hill", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=2840", null ], "-122.374794", "47.690119" ]
+, [ 1054, "795768D1-2A26-480F-B2E9-A8250C125FD4", 1054, 1263313296, "386118", 1263313296, "386118", null, "Parks", "East Duwamish Greenbelt", "1827 11TH AVE SOUTH", [ "http://www.seattle.gov/parks/park_detail.asp?ID=283", null ], "-122.318448", "47.586761" ]
+, [ 1245, "08D8C0D7-2636-4E4D-973D-B9AACD248CD2", 1245, 1263313296, "386118", 1263313296, "386118", null, "Parks", "West Duwamish Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=282", null ], "-122.356966", "47.563271" ]
+, [ 1053, "70BA077E-52DD-47B6-AFFE-6762B88DD445", 1053, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Twelfth West And W Howe Park", "12th Ave W / W Howe St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=281", null ], "-122.373243", "47.636418" ]
+, [ 1244, "A95EE3A2-3A3F-4FEF-94FC-A43AEEC7D3EC", 1244, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Northeast Queen Anne Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=279", null ], "-122.345011", "47.635866" ]
+, [ 1052, "35CD7949-E436-41AB-A291-DF68F86A5573", 1052, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Wolf Creek Ravine Natural Area", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=278", null ], "-122.352314", "47.639775" ]
+, [ 1243, "F9BA8C17-4794-4C44-9158-3A4D133B7BF0", 1243, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Mock Creek Ravine", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=277", null ], "-122.28962", "47.699037" ]
+, [ 1242, "D2B3A233-BAB6-42DD-966B-3A4F99C350A7", 1242, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Pipers Creek Natural Area", "600 NW 117TH ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=275", null ], "-122.364699", "47.714678" ]
+, [ 1051, "6D29F051-608C-4645-AAE3-D4237E09B95B", 1051, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Piers 62 And 63", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=274", null ], "-122.345238", "47.608657" ]
+, [ 1241, "DBC162B2-B134-4162-A279-06145052FBB3", 1241, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Me-Kwa-Mooks Natural Area", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=268", null ], "-122.403424", "47.563782" ]
+, [ 1240, "850E7530-8705-4664-ABDA-061CE260CD27", 1240, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Longfellow Creek Greenspace", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=267", null ], "-122.363435", "47.530167" ]
+, [ 1050, "558977A1-2CE5-4351-ACCE-52476F5A31D9", 1050, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Leschi-Lake Dell Natural Area", "3525 E TERRACE ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=263", null ], "-122.287835", "47.604695" ]
+, [ 1239, "B6CE54CE-F7EC-412D-8AE0-1BAC8CE55050", 1239, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kubota Gardens Natural Area", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=262", null ], "-122.267366", "47.511157" ]
+, [ 1049, "6ADACE74-A66F-4D40-A71E-7A754838EC52", 1049, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Duwamish Head Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=260", null ], "-122.395546", "47.583406" ]
+, [ 1238, "046B0900-E91F-49F2-A8C1-971E72D7BD04", 1238, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Bergen Place", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=253", null ], "-122.384495", "47.66833" ]
+, [ 1237, "F0F5A9D7-82C3-4286-B7EB-792A276A3B8C", 1237, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sunset Hill Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=252", null ], "-122.400938", "47.684034" ]
+, [ 1270, "88CB4398-77B5-4405-8884-A2658A7EA761", 1270, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Soundview Playfield", "1590 NW 90th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=251", null ], "-122.378878432525", "47.6954157512333" ]
+, [ 1269, "302103B2-572D-4DCE-87B0-AE6AC158CB92", 1269, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sandel Playground", "9053 1st Ave NW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=250", null ], "-122.358700739135", "47.6951336977073" ]
+, [ 1048, "5A50D84C-1568-49DE-BE1A-2F2B199D9FAC", 1048, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Salmon Bay Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=249", null ], "-122.382145", "47.679517" ]
+, [ 1268, "C0F5D09C-D02A-41F9-9354-92FA19459BF7", 1268, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Ross Playground", "4320 4th Ave NW", [ "http://www.seattle.gov/parks/park_detail.asp?ID=248", null ], "-122.361346842948", "47.6597179137182" ]
+, [ 1236, "06939EAB-2315-4972-8EF8-9F05420FD0E1", 1236, 1263313296, "386118", 1263313296, "386118", null, "Parks", "North Beach Park", "24TH AVE NW/NW 90TH ST", [ "http://www.seattle.gov/parks/park_detail.asp?ID=247", null ], "-122.390258", "47.69471" ]
+, [ 1047, "BC720D62-E100-4864-A1D4-59C3B3EE955F", 1047, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Kiwanis Memorial Preserve Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=246", null ], "-122.401004", "47.66197" ]
+, [ 1235, "829FA10F-AD50-4FB6-81D3-9842034429B8", 1235, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Greenwood Triangle", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=245", null ], "-122.361032", "47.668902" ]
+, [ 1234, "5D29195F-4EEB-4BF5-A2E4-852E11BB5D77", 1234, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Albert Davis Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=244", null ], "-122.298462", "47.72021" ]
+, [ 1046, "11923FA3-A66C-43FF-9D87-BA48E130905A", 1046, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Golden Gardens Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=243", null ], "-122.403269", "47.692105" ]
+, [ 1267, "F8B6754A-9335-4E3B-B79C-A59AB24552C0", 1267, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Gilman Playground", "923 NW 54th St", [ "http://www.seattle.gov/parks/park_detail.asp?ID=242", null ], "-122.369684036369", "47.66729167168" ]
+, [ 1266, "C861897C-3C67-4129-80B1-4E2E8C616D39", 1266, 1263313296, "386118", 1263313296, "386118", null, "Parks", "B.F. Day Playground", "4020 Fremont Ave N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=241", null ], "-122.349221502422", "47.6560301481679" ]
+, [ 1233, "662EBE08-0F4A-488D-B78C-F9F26EB3D25A", 1233, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Carkeek Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=240", null ], "-122.37241", "47.710823" ]
+, [ 1045, "FEE0AA25-5A4F-418E-9D91-BC381D9C9351", 1045, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Blue Ridge Places", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=239", null ], "-122.381198", "47.703194" ]
+, [ 1232, "B5E13039-4CCB-4B29-BEED-D47A8C54A370", 1232, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Pelly Place Natural Area", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=237", null ], "-122.39309", "47.541492" ]
+, [ 1044, "ACD5AF49-C34B-4895-8308-E3972FAF24CE", 1044, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Sw Queen Anne Greenbelt", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=234", null ], "-122.373209", "47.633353" ]
+, [ 1008, "0E9C716B-9BA9-4FA7-90D0-3131DD1E1B36", 1008, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Endolyne Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=1653", null ], "-122.39438", "47.514542" ]
+, [ 1227, "07AC2852-45A9-4CA9-A64B-5967BD43013B", 1227, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Maple School Ravine", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=1630", null ], "-122.308342", "47.551071" ]
+, [ 1226, "63AE8618-17AC-414C-9F45-55E935523440", 1226, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Arapahoe Triangle", "3431 ARAPAHOE PLACE W", [ "http://www.seattle.gov/parks/park_detail.asp?ID=1556", null ], "-122.409139", "47.65129" ]
+, [ 1231, "6611EB76-D024-4411-A1E5-62C7D1109B7B", 1231, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Jefferson Park", null, [ "http://www.seattle.gov/parks/park_detail.asp?ID=114", null ], "-122.311441", "47.568067" ]
+, [ 1318, "4EDD7DE3-BF4D-4EAB-81BF-41FB8E275215", 1318, 1263313296, "386118", 1263313296, "386118", null, "Parks", "Meridian Playground", "4649 Sunnyside Ave N", [ "http://www.seattle.gov/parks/park_detail.asp?ID=1104", null ], "-122.332556754953", "47.6641586884286" ]
+ ]
+}
